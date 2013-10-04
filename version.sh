@@ -1,6 +1,6 @@
  #!/bin/sh
 
-DIR="$PWD"
+DIR="$HOME"
 count=`git rev-list HEAD | wc -l | sed -e 's/ *//g' | xargs -n1 printf %04d`
 commit=`git show --abbrev-commit HEAD | grep '^commit' | sed -e 's/commit //'`
 buildno=b"$count.$commit"
@@ -8,3 +8,5 @@ buildno=b"$count.$commit"
 echo $buildno > "${DIR}/version.txt"
 git add .
 git commit -a -F "${DIR}/version.txt"
+git push
+
