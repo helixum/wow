@@ -8,3 +8,5 @@ buildno=b"$count.$commit"
 echo $buildno > "${DIR}/version.txt"
 git add .
 git commit -a -F "${DIR}/version.txt"
+git push
+
