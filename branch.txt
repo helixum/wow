@@ -1,2 +1,4 @@
+5-10-2013 01:57 de eerste tests zijn veel belovend alleen server/src/bindings/CMakeLists.txt is een probleem (moet handmatig aanpassen)
+		  zo CMakeLists.txt adding to project external
 4-10-2013 23:58 install Realm server Zero on the remote server
 4-10-2013 23:46 reopen the P2h-WoW project
