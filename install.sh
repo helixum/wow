@@ -3,11 +3,12 @@ realmdir1="$HOME/tbc"
 if test -e CMakeLists.txt; then 
 if test -d $installdir1; then rm -rf 
 cd $installdir1
-git clone https://github.com/mangoszero/server.git
-cd server/src/bindings
-git clone https://github.com/mangoszero/scripts.git
+#git clone https://github.com/mangosone/server.git
+#cd server/src/bindings
+#git clone https://github.com/mangoszero/scripts.git
 #echo fix a error in server/src/bindings/CMakeLists.txt
 #cp $PWD/CMakeLists.txt $installdir1/server/src/bindings
+#echo add_subdirectory(scripts) > server/src/bindings/CMakeLists.txt
 cd $installdir1/server
 mkdir obj
 cd obj
